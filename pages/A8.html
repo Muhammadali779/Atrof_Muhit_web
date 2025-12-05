@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqlim o'zgarishlari va Cho'llanish</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: linear-gradient(135deg, #0f1a24 0%, #112233 50%, #0a1e2c 100%);
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #e0f7fa;
+            min-height: 100vh;
+        }
+
+        .topic-page {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 50px 40px;
+            background: rgba(10, 35, 55, 0.75);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            border: 1px solid rgba(80, 220, 220, 0.3);
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.6),
+                0 0 40px rgba(80, 220, 220, 0.15);
+        }
+
+        .topic-page h1 {
+            text-align: center;
+            font-size: 58px;
+            margin-bottom: 30px;
+            color: #00e6e6;
+            text-shadow: 
+                0 0 15px #00e6e6,
+                0 0 30px #00e6e6;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .topic-page h2 {
+            color: #00ffff;
+            font-size: 34px;
+            margin: 50px 0 20px;
+            padding-bottom: 12px;
+            position: relative;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+        }
+
+        .topic-page h2::after {
+            content: '';
+            position: absolute;
+            left: 0; bottom: 0;
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #00ffff, transparent);
+            border-radius: 2px;
+            box-shadow: 0 0 15px #00ffff;
+        }
+
+        .topic-page p {
+            font-size: 19px;
+            line-height: 2;
+            color: #b2ebf2;
+            margin: 20px 0;
+            text-align: justify;
+        }
+
+        .topic-page ul {
+            padding-left: 30px;
+            margin: 25px 0;
+        }
+
+        .topic-page ul li {
+            font-size: 18px;
+            line-height: 1.9;
+            margin: 14px 0;
+            color: #80deea;
+            position: relative;
+        }
+
+        .topic-page ul li::marker {
+            color: #00ffff;
+            font-size: 1.3em;
+        }
+
+        .topic-page img {
+            width: 90%;
+            max-width: 600px;
+            display: block;
+            margin: 40px auto;
+            border-radius: 20px;
+            border: 3px solid rgba(80, 220, 220, 0.4);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .topic-page img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 255, 255, 0.3);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin: 60px auto 20px;
+            padding: 16px 40px;
+            background: transparent;
+            color: #00ffff;
+            font-size: 21px;
+            font-weight: bold;
+            border: 2px solid #00ffff;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .back-btn:hover {
+            background: #00ffff;
+            color: #001a22;
+            box-shadow: 0 0 40px #00ffff;
+            transform: translateY(-4px);
+        }
+
+        @media (max-width: 768px) {
+            .topic-page { margin: 20px; padding: 30px; }
+            .topic-page h1 { font-size: 42px; }
+            .topic-page h2 { font-size: 28px; }
+            .topic-page img { width: 100%; max-width: 100%; margin: 30px auto; }
+        }
+    </style>
+</head>
+<body>
+<div class="topic-page">
+    <h1>Iqlim o'zgarishlari va Cho'llanish</h1>
+
+    <h2>1.1. Iqlim o‘zgarishlari haqida tushuncha: Sabablar va Oqibatlar</h2>
+    <p>
+        Iqlim o‘zgarishi – bu uzoq muddatli (o‘n yillardan million yillargacha) ob-havo sharoitlaridagi statistik o‘zgarishlardir. Bugungi kunda biz kuzatayotgan iqlim o‘zgarishining asosiy sababi inson faoliyati (antropogen omillar) hisoblanadi.
+    </p>
+    <p>
+        Sanoat inqilobidan boshlab qazib olinadigan yoqilg'ilarni (ko'mir, neft, gaz) yoqish, o‘rmonlarning kesilishi va sanoat jarayonlari atmosferadagi "issiqxona gazlari" (karbonat angidrid, metan) miqdorini keskin oshirdi. Bu gazlar Yer yuzasidan qaytgan issiqlikni ushlab qolib, sayyoramizning o‘rtacha harorati oshishiga, ya’ni global isishga olib kelmoqda.
+    </p>
+    <p>
+        Iqlim o‘zgarishi bo‘yicha hukumatlararo panel (IPCC) xulosalariga ko‘ra, bu jarayonning oqibatlari butun dunyoda kuzatilmoqda va ular quyidagilarni o‘z ichiga oladi:
+    </p>
+    <ul>
+        <li>Ekstremal ob-havo hodisalarining (qurg‘oqchilik, kuchli yog‘ingarchilik, issiqlik to‘lqinlari) ko‘payishi.</li>
+        <li>Muzliklarning erishi va dengiz sathining ko‘tarilishi.</li>
+        <li>Suv resurslarining kamayishi va oziq-ovqat xavfsizligiga tahdid.</li>
+    </ul>
+    <img src="../assets/images/iqlim_chollanishi.jpg" alt="Suvning ahamiyati">
+
+    <h2>1.2. Cho‘llanish: Ta’rifi va Iqlim o‘zgarishi bilan bog‘liqligi</h2>
+    <p>
+        BMTning Cho‘llanishga qarshi kurash konvensiyasi (UNCCD) cho‘llanishni mavjud cho‘llarning tabiiy kengayishi emas, balki qurg‘oqchil, yarim qurg‘oqchil va quruq subgumid hududlardagi yerlarning degradatsiyasi (unumdorligining pasayishi) deb ta’riflaydi.
+    </p>
+    <p>
+        Bu jarayon inson faoliyati (o‘rmonlarni kesish, haddan tashqari o‘tlatish, noto‘g‘ri sug‘orish) va iqlim o‘zgarishlari natijasida yuzaga keladi.
+    </p>
+    <p>
+        Iqlim o‘zgarishi va cho‘llanish bir-birini kuchaytiruvchi "shafqatsiz aylana" (vicious cycle) hosil qiladi:
+    </p>
+    <ul>
+        <li><strong>Iqlim o‘zgarishi → Cho‘llanish:</strong> Haroratning ko‘tarilishi tuproqdagi namlikning bug‘lanishini kuchaytiradi. Yog‘ingarchilik rejimining o‘zgarishi va qurg‘oqchilikning kuchayishi o‘simlik qoplamining siyraklashishiga va tuproq eroziyasiga olib keladi.</li>
+        <li><strong>Cho‘llanish → Iqlim o‘zgarishi:</strong> O‘simlik qoplamining yo‘qolishi tuproqda saqlanayotgan uglerodning atmosferaga karbonat angidrid shaklida chiqishiga sabab bo‘ladi. Shuningdek, ochiq yer yuzasi chang bo‘ronlari manbaiga aylanib, mintaqaviy iqlimga salbiy ta’sir ko‘rsatadi.</li>
+    </ul>
+
+    <div style="text-align:center;">
+        <a href="../index.html" class="back-btn">⬅ Bosh sahifaga qaytish</a>
+    </div>
+</div>
+</body>
+</html>

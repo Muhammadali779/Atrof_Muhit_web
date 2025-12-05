@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suvning Inson Hayotidagi Ahamiyati</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: linear-gradient(135deg, #0f1a24 0%, #112233 50%, #0a1e2c 100%);
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #e0f7fa;
+            min-height: 100vh;
+        }
+
+        .topic-page {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 50px 40px;
+            background: rgba(10, 35, 55, 0.75);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            border: 1px solid rgba(80, 220, 220, 0.3);
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.6),
+                0 0 40px rgba(80, 220, 220, 0.15);
+        }
+
+        .topic-page h1 {
+            text-align: center;
+            font-size: 58px;
+            margin-bottom: 30px;
+            color: #00e6e6;
+            text-shadow: 
+                0 0 15px #00e6e6,
+                0 0 30px #00e6e6;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .topic-page h2 {
+            color: #00ffff;
+            font-size: 34px;
+            margin: 50px 0 20px;
+            padding-bottom: 12px;
+            position: relative;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+        }
+
+        .topic-page h2::after {
+            content: '';
+            position: absolute;
+            left: 0; bottom: 0;
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #00ffff, transparent);
+            border-radius: 2px;
+            box-shadow: 0 0 15px #00ffff;
+        }
+
+        .topic-page p {
+            font-size: 19px;
+            line-height: 2;
+            color: #b2ebf2;
+            margin: 20px 0;
+            text-align: justify;
+        }
+
+        .topic-page ul {
+            padding-left: 30px;
+            margin: 25px 0;
+        }
+
+        .topic-page ul li {
+            font-size: 18px;
+            line-height: 1.9;
+            margin: 14px 0;
+            color: #80deea;
+            position: relative;
+        }
+
+        .topic-page ul li::marker {
+            color: #00ffff;
+            font-size: 1.3em;
+        }
+
+        .topic-page img {
+            width: 90%;
+            max-width: 600px;
+            display: block;
+            margin: 40px auto;
+            border-radius: 20px;
+            border: 3px solid rgba(80, 220, 220, 0.4);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .topic-page img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 255, 255, 0.3);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin: 60px auto 20px;
+            padding: 16px 40px;
+            background: transparent;
+            color: #00ffff;
+            font-size: 21px;
+            font-weight: bold;
+            border: 2px solid #00ffff;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .back-btn:hover {
+            background: #00ffff;
+            color: #001a22;
+            box-shadow: 0 0 40px #00ffff;
+            transform: translateY(-4px);
+        }
+
+        @media (max-width: 768px) {
+            .topic-page { margin: 20px; padding: 30px; }
+            .topic-page h1 { font-size: 42px; }
+            .topic-page h2 { font-size: 28px; }
+            .topic-page img { width: 100%; max-width: 100%; margin: 30px auto; }
+        }
+    </style>
+</head>
+<body>
+<div class="topic-page">
+    <h1>Suvning Inson Hayotidagi Ahamiyati</h1>
+
+
+    <h2>1.1. Suvning ahamiyati va global taqsimoti</h2>
+    <p>
+        Suv – Yer yuzidagi hayotning asosi, inson xo‘jalik faoliyatining ajralmas elementidir. U nafaqat ichimlik manbai, balki sanoatda xomashyo, energiya manbai, sovutgich, erituvchi sifatida hamda qishloq xo‘jaligida hosildorlikni ta’minlovchi eng muhim resursdir.
+    </p>
+    <p>
+        Sayyoramiz yuzasining qariyb 71%i suv bilan qoplangan bo‘lsa-da, bu boylikning taqsimoti juda notekisdir. Yerdagi suvning umumiy hajmi taxminan 1,386 million kub kilometrni tashkil etadi, ammo uning asosiy qismi inson iste’moli uchun yaroqsizdir.
+    </p>
+    <ul>
+        <li><strong>Sho‘r suv:</strong> Umumiy suv hajmining 97% dan ortig‘i okean va dengizlardagi sho‘r suvlardir.</li>
+        <li><strong>Chuchuk suv:</strong> Sayyoramizdagi suvning atigi 3% ga yaqini chuchuk suv hisoblanadi.</li>
+        <li><strong>Foydalanish mumkin bo‘lgan chuchuk suv:</strong> Bu chuchuk suvning asosiy qismi (taxminan 2%) muzliklarda qulflangan. Insoniyat foydalanishi mumkin bo‘lgan, oson olinadigan chuchuk suv zaxiralari (daryolar, ko‘llar, yer osti suvlari) umumiy suv hajmining 1%idan ham kamroqni tashkil etadi.</li>
+    </ul>
+    <img src="../assets/images/suv_taqsimoti1.jpg" alt="Suvning ahamiyati">
+
+    <h2>1.2. Aholini chuchuk suv bilan ta’minlash muammolari (O‘zbekiston misolida)</h2>
+    <ul>
+        <li><strong>Geografik joylashuv:</strong> Mamlakatimiz suv resurslarining qariyb 80%i qo‘shni davlatlar hududida shakllanadigan transchegaraviy daryolar (Amudaryo va Sirdaryo) hissasiga to‘g‘ri keladi.</li>
+        <li><strong>Iqlim o‘zgarishi:</strong> Global isish natijasida muzliklarning erishi tezlashmoqda, bu esa kelajakda daryolar oqimining 15% gacha kamayishiga olib kelishi mumkin.</li>
+        <li><strong>Suvdan samarasiz foydalanish:</strong> Qishloq xo‘jaligi mamlakatdagi suv iste’molining qariyb 90%ini tashkil etadi. Eskirgan irrigatsiya tizimlari tufayli suvning katta qismi dalalarga yetib bormasdan yo‘qoladi.</li>
+        <li><strong>Aholi o‘sishi:</strong> Aholi sonining ortishi jon boshiga to‘g‘ri keladigan suv miqdorining kamayishiga olib kelmoqda.</li>
+    </ul>
+    <p>
+        Ushbu omillar birgalikda Orol dengizi fojiasi kabi ekologik halokatlarga sabab bo‘lib, aholi salomatligi, iqtisodiyot va oziq-ovqat xavfsizligiga jiddiy tahdid solmoqda.
+    </p>
+
+    <h2>1.3. Ichki suv resurslarini ifloslanishining asosiy manbalari</h2>
+    <ul>
+        <li><strong>Nuqtaviy manbalar:</strong> Ifloslanish aniq bir joydan kelib chiqadi. Bunga quyidagilar kiradi:
+            <ul>
+                <li>Sanoat oqovalari: Zavod va fabrikalardan chiqadigan, tarkibida og‘ir metallar, zaharli kimyoviy moddalar bo‘lgan tozalanmagan suvlar.</li>
+                <li>Maishiy oqova suvlar (kanalizatsiya): Aholi punktlaridan chiqadigan, tarkibida organik moddalar va kasallik qo‘zg‘atuvchi mikroorganizmlar bo‘lgan suvlar.</li>
+            </ul>
+        </li>
+        <li><strong>Tarqoq (diffuz) manbalar:</strong> Ifloslanish keng maydondan yig‘ilib keladi va aniq manbasini topish qiyin. Bunga quyidagilar kiradi:
+            <ul>
+                <li>Qishloq xo‘jaligi oqovalari: Dalalardan yomg‘ir suvlari bilan yuvilib tushadigan mineral o‘g‘itlar (nitratlar, fosfatlar) va pestitsidlar.</li>
+                <li>Shahar oqovalari: Shahar ko‘chalari va avtomobil yo‘llaridan yuvilib tushadigan neft mahsulotlari, tuzlar va boshqa kimyoviy moddalar.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div style="text-align:center;">
+        <a href="../index.html" class="back-btn">⬅ Bosh sahifaga qaytish</a>
+    </div>
+</div>
+</body>
+</html>

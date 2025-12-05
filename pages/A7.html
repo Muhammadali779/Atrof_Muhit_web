@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qayta Tiklanuvchi Energiyalar</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: linear-gradient(135deg, #0f1a24 0%, #112233 50%, #0a1e2c 100%);
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #e0f7fa;
+            min-height: 100vh;
+        }
+
+        .topic-page {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 50px 40px;
+            background: rgba(10, 35, 55, 0.75);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            border: 1px solid rgba(80, 220, 220, 0.3);
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.6),
+                0 0 40px rgba(80, 220, 220, 0.15);
+        }
+
+        .topic-page h1 {
+            text-align: center;
+            font-size: 58px;
+            margin-bottom: 30px;
+            color: #00e6e6;
+            text-shadow: 
+                0 0 15px #00e6e6,
+                0 0 30px #00e6e6;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .topic-page h2 {
+            color: #00ffff;
+            font-size: 34px;
+            margin: 50px 0 20px;
+            padding-bottom: 12px;
+            position: relative;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+        }
+
+        .topic-page h2::after {
+            content: '';
+            position: absolute;
+            left: 0; bottom: 0;
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #00ffff, transparent);
+            border-radius: 2px;
+            box-shadow: 0 0 15px #00ffff;
+        }
+
+        .topic-page p {
+            font-size: 19px;
+            line-height: 2;
+            color: #b2ebf2;
+            margin: 20px 0;
+            text-align: justify;
+        }
+
+        .topic-page ul {
+            padding-left: 30px;
+            margin: 25px 0;
+        }
+
+        .topic-page ul li {
+            font-size: 18px;
+            line-height: 1.9;
+            margin: 14px 0;
+            color: #80deea;
+            position: relative;
+        }
+
+        .topic-page ul li::marker {
+            color: #00ffff;
+            font-size: 1.3em;
+        }
+
+        .topic-page img {
+            width: 90%;
+            max-width: 600px;
+            display: block;
+            margin: 40px auto;
+            border-radius: 20px;
+            border: 3px solid rgba(80, 220, 220, 0.4);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .topic-page img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 255, 255, 0.3);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin: 60px auto 20px;
+            padding: 16px 40px;
+            background: transparent;
+            color: #00ffff;
+            font-size: 21px;
+            font-weight: bold;
+            border: 2px solid #00ffff;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .back-btn:hover {
+            background: #00ffff;
+            color: #001a22;
+            box-shadow: 0 0 40px #00ffff;
+            transform: translateY(-4px);
+        }
+
+        @media (max-width: 768px) {
+            .topic-page { margin: 20px; padding: 30px; }
+            .topic-page h1 { font-size: 42px; }
+            .topic-page h2 { font-size: 28px; }
+            .topic-page img { width: 100%; max-width: 100%; margin: 30px auto; }
+        }
+    </style>
+</head>
+<body>
+<div class="topic-page">
+    <h1>Qayta Tiklanuvchi Energiyalar</h1>
+
+    <h2>1.1. Qayta tiklanuvchi energiya manbalari: Umumiy tushuncha va ahamiyati</h2>
+    <p>
+        Qayta tiklanuvchi energiya manbalari – bu tabiatda doimiy ravishda tiklanib turadigan va tugamaydigan manbalardan olinadigan energiya turlaridir. 
+        Ularga quyosh, shamol, suv (gidroenergetika), biomassа va geotermal energiya kiradi.
+        An'anaviy qazib olinadigan yoqilg'ilardan farqli o'laroq, QTM atrof-muhitga minimal zarar yetkazadi va "issiqxona gazlari" chiqindilarini kamaytirish orqali iqlim o'zgarishiga qarshi kurashishning eng samarali vositasi hisoblanadi.
+    </p>
+    <p>
+        O'zbekiston uchun QTMga o'tish nafaqat ekologik, balki iqtisodiy va strategik zaruratdir. Mamlakat aholisi va iqtisodiyoti jadal o'sib borayotgani sababli, elektr energiyasiga bo'lgan talab 2030-yilgacha deyarli ikki baravar oshishi kutilmoqda. Shu bilan birga, tabiiy gaz zaxiralari cheklangan bo'lib, 16 yildan kamroq vaqt ichida tugashi mumkin.
+    </p>
+    <p>
+        Shu sababli, O'zbekiston hukumati "Yashil iqtisodiyotga o'tish strategiyasi" doirasida QTM ulushini keskin oshirishni maqsad qilgan. 2030-yilgacha elektr energiyasi ishlab chiqarishning 40-50%ini qayta tiklanuvchi manbalar hisobiga ta'minlash rejalashtirilgan.
+    </p>
+
+    <h2>1.2. Quyosh energiyasidan foydalanish</h2>
+    <p>
+        O'zbekiston quyosh energiyasidan foydalanish uchun ulkan salohiyatga ega. Mamlakatda yiliga 320 dan ortiq quyoshli kun kuzatiladi, bu esa fotoelektr stansiyalari (FES) qurish uchun juda qulay sharoit yaratadi.
+    </p>
+    
+    <ul>
+        <li><strong>Texnologiya:</strong> Fotoelektr panellari quyosh nurini to'g'ridan-to'g'ri elektr energiyasiga aylantiradi.</li>
+        <li><strong>O'zbekistondagi loyihalar:</strong> Hukumat 2030-yilgacha 7-10 GVtgacha quyosh energiyasi quvvatlarini ishga tushirishni rejalashtirgan. Bu borada Osiyo taraqqiyot banki (OTB) va Xalqaro moliya korporatsiyasi (IFC) kabi xalqaro hamkorlar bilan birgalikda davlat-xususiy sheriklik asosida yirik loyihalar amalga oshirilmoqda.</li>
+    </ul>
+    <img src="../assets/images/quyosh_energiyasi.jpg" alt="Suvning ahamiyati">
+
+    
+    <h2>1.3. Shamol generatorlaridan foydalanish istiqbollari</h2>
+    <ul>
+        <li><strong>Salohiyat:</strong> O'zbekistonning ayrim hududlarida, xususan, Navoiy viloyati va Qoraqalpog'iston Respublikasida shamol energetikasini rivojlantirish uchun qulay sharoitlar mavjud.</li>
+        <li><strong>Maqsadlar:</strong> 2030-yilgacha 5 GVtgacha shamol elektr stansiyalarini (SHES) qurish rejalashtirilgan. Bu nafaqat energiya ta'minotini diversifikatsiya qilish, balki suv resurslari tanqisligi sharoitida qo'shni davlatlar bilan yuzaga kelishi mumkin bo'lgan geosiyosiy muammolarni yumshatish uchun ham muhim hisoblanadi.</li>
+    </ul>
+    <img src="../assets/images/shamol_generatorlari.webp" alt="Suvning ahamiyati">
+
+    <h2>1.4. Biomassadan energiya olish</h2>
+    <p>
+        Biomassa – bu o'simlik va hayvonot olamiga mansub bo'lgan organik moddalardir. O'zbekiston kabi agrar mamlakat uchun bu katta, ammo hali to'liq ishga solinmagan resursdir.
+    </p>
+    <ul>
+        <li><strong>Xomashyo:</strong> Qishloq xo'jaligi chiqindilari (g'o'zapoya, somon), chorvachilik go'ngi va yog'och qirindilari biomassaning asosiy manbalaridir.</li>
+        <li><strong>Texnologiyalar:</strong>
+            <ul>
+                <li>To'g'ridan-to'g'ri yoqish: Biomassani maxsus qozonxonalarda yoqib, issiqlik va elektr energiyasi olish.</li>
+                <li>Biogaz ishlab chiqarish: Organik chiqindilarni anaerob (kislorodsiz) sharoitda achitish orqali metan gazini olish. Bu gazdan isitish va elektr energiyasi ishlab chiqarishda foydalanish mumkin.</li>
+            </ul>
+        </li>
+    </ul>
+    <img src="../assets/images/biomassa_energiyasi.jpg" alt="Suvning ahamiyati">
+
+    <div style="text-align:center;">
+        <a href="../index.html" class="back-btn">⬅ Bosh sahifaga qaytish</a>
+    </div>
+</div>
+</body>
+</html>

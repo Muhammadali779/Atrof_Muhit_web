@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atmosfera Tarkibi va Ifloslanishi</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: linear-gradient(135deg, #0f1a24 0%, #112233 50%, #0a1e2c 100%);
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #e0f7fa;
+            min-height: 100vh;
+        }
+
+        .topic-page {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 50px 40px;
+            background: rgba(10, 35, 55, 0.75);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            border: 1px solid rgba(80, 220, 220, 0.3);
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.6),
+                0 0 40px rgba(80, 220, 220, 0.15);
+        }
+
+        .topic-page h1 {
+            text-align: center;
+            font-size: 58px;
+            margin-bottom: 30px;
+            color: #00e6e6;
+            text-shadow: 
+                0 0 15px #00e6e6,
+                0 0 30px #00e6e6;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        .topic-page h2 {
+            color: #00ffff;
+            font-size: 34px;
+            margin: 50px 0 20px;
+            padding-bottom: 12px;
+            position: relative;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+        }
+
+        .topic-page h2::after {
+            content: '';
+            position: absolute;
+            left: 0; bottom: 0;
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #00ffff, transparent);
+            border-radius: 2px;
+            box-shadow: 0 0 15px #00ffff;
+        }
+
+        .topic-page p {
+            font-size: 19px;
+            line-height: 2;
+            color: #b2ebf2;
+            margin: 20px 0;
+            text-align: justify;
+        }
+
+        .topic-page ul {
+            padding-left: 30px;
+            margin: 25px 0;
+        }
+
+        .topic-page ul li {
+            font-size: 18px;
+            line-height: 1.9;
+            margin: 14px 0;
+            color: #80deea;
+            position: relative;
+        }
+
+        .topic-page ul li::marker {
+            color: #00ffff;
+            font-size: 1.3em;
+        }
+
+        .topic-page img {
+            width: 90%;
+            max-width: 600px;
+            display: block;
+            margin: 40px auto;
+            border-radius: 20px;
+            border: 3px solid rgba(80, 220, 220, 0.4);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .topic-page img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 255, 255, 0.3);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin: 60px auto 20px;
+            padding: 16px 40px;
+            background: transparent;
+            color: #00ffff;
+            font-size: 21px;
+            font-weight: bold;
+            border: 2px solid #00ffff;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .back-btn:hover {
+            background: #00ffff;
+            color: #001a22;
+            box-shadow: 0 0 40px #00ffff;
+            transform: translateY(-4px);
+        }
+
+        @media (max-width: 768px) {
+            .topic-page { margin: 20px; padding: 30px; }
+            .topic-page h1 { font-size: 42px; }
+            .topic-page h2 { font-size: 28px; }
+            .topic-page img { width: 100%; max-width: 100%; margin: 30px auto; }
+        }
+    </style>
+</head>
+<body>
+<div class="topic-page">
+    <h1>Atmosfera Tarkibi va Ifloslanishi</h1>
+
+    
+
+    <h2>1.1. Atmosfera tarkibi va tuzilishi: Sayyoramizning himoya qalqoni</h2>
+    <p>
+        Atmosfera — Yer sayyorasini o'rab turgan, hayot mavjudligining asosiy sharti bo'lgan gazsimon qobiqdir. U tirik organizmlarni halokatli ultrabinafsha nurlanishdan, kosmik jismlarning zarbalaridan himoya qiladi va sayyoramizdagi issiqlik muvozanatini bir maromda saqlab turadi.
+    </p>
+    <ul>
+        <li><strong>Kimyoviy tarkibi:</strong> Yer yuzasiga yaqin qatlamlardagi quruq havo asosan azot (78.09%) va kislorod (20.94%) iborat. Qolgan qismini argon (0.93%), karbonat angidrid (0.03%) va juda kichik miqdordagi boshqa gazlar (neon, geliy, metan, ozon va boshqalar) tashkil etadi. Ushbu nozik muvozanatning buzilishi tirik organizmlarning nafas olish jarayonlariga jiddiy salbiy ta'sir ko'rsatadi.</li>
+        <img src="../assets/images/atm_tarkibi.jpg" alt="Atmosfera qatlamlari">
+        <li><strong>Vertikal tuzilishi:</strong> Atmosfera harorat va zichlikka qarab bir necha qatlamlarga bo'linadi:
+            <ul>
+                <li>Troposfera (10-15 km gacha): Ob-havo hodisalari yuz beradigan asosiy qatlam.</li>
+                <li>Stratosfera (50 km gacha): Hayot uchun muhim bo'lgan ozon (O₃) qatlami shu yerda joylashgan.</li>
+                <li>Mezosfera (50-80 km gacha)</li>
+                <li>Termosfera (Ionosfera) (80-700 km gacha)</li>
+                <li>Egzosfera (700 km dan yuqori)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>1.2. Atmosfera havosini ifloslovchi manbalar</h2>
+    <ul>
+        <li><strong>Tabiiy manbalar:</strong> Bularga vulqon otilishi, o'rmon yong'inlari, chang bo'ronlari, o'simlik va hayvon qoldiqlarining chirishi kiradi.</li>
+        <li><strong>Antropogen manbalar:</strong> Inson faoliyati natijasida yuzaga keladi va bugungi kunda ifloslanishning asosiy sababchisidir. Ular o'z navbatida statsionar va ko'chma manbalarga bo'linadi:
+            <ul>
+                <li>Statsionar manbalar: Sanoat korxonalari, issiqlik elektr stansiyalari, isitish tizimlari, chiqindilarni yoqish pechlari.</li>
+                <li>Ko'chma manbalar: Avtomobillar, poyezdlar, samolyotlar va kemalar.</li>
+                <li>Boshqa manbalar: Qishloq xo'jaligi (o'g'itlar, chorvachilik), qurilish ishlari va erituvchilarning bug'lanishi.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>1.3. Birlamchi va ikkilamchi ifloslantiruvchilar</h2>
+    <ul>
+        <li><strong>Birlamchi ifloslantiruvchilar:</strong> To'g'ridan-to'g'ri manbadan atmosferaga chiqariladi. Masalan, avtomobil chiqindisidan chiquvchi uglerod oksidi (CO) yoki zavod mo'risidan chiquvchi oltingugurt dioksidi (SO₂).</li>
+        <li><strong>Ikkilamchi ifloslantiruvchilar:</strong> Birlamchi ifloslantiruvchilarning atmosfera komponentlari bilan (ko'pincha quyosh nuri ta'sirida) reaksiyaga kirishishi natijasida hosil bo'ladi. Bunga fotokimyoviy smog va troposferik ozon (O₃) misol bo'la oladi.</li>
+    </ul>
+
+    <div style="text-align:center;">
+        <a href="../index.html" class="back-btn">⬅ Bosh sahifaga qaytish</a>
+    </div>
+</div>
+</body>
+</html>
